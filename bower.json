@@ -1,0 +1,8 @@
+{
+  "name": "angularAMD-karma",
+  "dependencies": {
+    "angular": "~1.2.21",
+    "angularAMD": "~0.2.1",
+    "requirejs": "~2.1.9"
+  }
+}
