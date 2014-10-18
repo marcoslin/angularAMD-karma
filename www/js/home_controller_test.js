@@ -1,6 +1,6 @@
-define(['app', 'angularAMD', 'home_controller'], function (app, angularAMD) {
+define(['app', 'angularAMD', 'www/js/home_controller'], function (app, angularAMD) {
 
-  describe('home/home-controller.js', function () {
+  describe('home-controller.js', function () {
     var scope, ctrl;
     
     beforeEach(function () {

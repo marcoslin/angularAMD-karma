@@ -15,13 +15,11 @@ require.config({
     paths: {
       'angular': 'bower_components/angular/angular',
       'angularAMD': 'bower_components/angularAMD/angularAMD',
-      'app': 'test/app',
-      'home_controller': 'www/js/home_controller'
+      'app': 'www/js/app'
     },
     
     shim: {
-      'angularAMD': ['angular'],
-      'home_controller': ['app']
+      'angularAMD': ['angular']
     },
     
     deps: allTestFiles,

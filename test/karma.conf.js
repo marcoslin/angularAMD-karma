@@ -15,7 +15,6 @@ module.exports = function (config) {
     files: [
       {pattern: 'bower_components/**/*.js', included: false},
       {pattern: 'www/js/*.js', included: false},
-      {pattern: 'test/app.js', included: false},
       'test/main.js'
     ],
 
