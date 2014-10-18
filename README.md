@@ -16,9 +16,9 @@ run_test.sh
 ```
 
 ## Note
-There are some load sequence problem that requier `app.js` to be loaded first, or
-`angularAMD` would not initialized on the very first package ran.  If you remove
-`app_test.js` and run the test, you will get following error:
+There is some load sequence problem that require `app.js` to be loaded first, or
+`angularAMD` would not initialized on the very first package ran.  For example, If
+you remove `app_test.js` and run the test, you will get following error:
 
 ```
 PhantomJS 1.9.7 (Mac OS X) home-controller.js app should be defined. FAILED
