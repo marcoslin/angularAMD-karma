@@ -9,7 +9,11 @@ define(['app', 'angularAMD', 'home_controller'], function (app, angularAMD) {
         ctrl = $controller('HomeController', {
           $scope: scope
         });
-      })
+      });
+    });
+    
+    it('app should be defined.', function () {
+      expect(app).toBeDefined();
     });
 
     it('should have scope.message string in controller', function () {
